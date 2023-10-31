@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
     private float mMoveSpeed;
 
     private bool mIsMoving;
-    private bool mIsOnGround;
 
     private const string FORWARD = "Forward";
     private const string BACKWARD = "Backward";
@@ -31,7 +30,6 @@ public class PlayerController : MonoBehaviour
         mVerticalMovement = 0;
         mMoveSpeed = mPlayerConfig.MovementSpeed;
         mIsMoving = false;
-        mIsOnGround = true;
     }
 
     private void FixedUpdate()
