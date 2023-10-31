@@ -21,7 +21,7 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    private void OnEnable()
+    /*private void OnEnable()
     {
         NewGameState(new IStateIntro());
         SceneManager.sceneLoaded += OnSceneLoaded;
@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
         }
         CurrentState = newState;
         CurrentState.OnStateEnter();
-    }
+    }*/
     public void StartButton()
     {
         mMenuPanel.SetActive(false);
