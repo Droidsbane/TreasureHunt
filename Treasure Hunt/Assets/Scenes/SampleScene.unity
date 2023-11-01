@@ -304,7 +304,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: -2, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 302.6245, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &513047730
 MonoBehaviour:
@@ -389,7 +389,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -203.22675, w: 0}
+  m_margin: {x: 0, y: 0, z: 1.2328491, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -634,6 +634,7 @@ GameObject:
   - component: {fileID: 621504979}
   - component: {fileID: 621504981}
   - component: {fileID: 621504980}
+  - component: {fileID: 621504982}
   m_Layer: 5
   m_Name: ScoreAmount
   m_TagString: Untagged
@@ -655,11 +656,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 513047729}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 200.6, y: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 100, y: 0}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &621504980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -757,6 +758,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 621504978}
   m_CullTransparentMesh: 1
+--- !u!114 &621504982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621504978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac82855ea3104449b6761e589738c03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mScoreAmount: {fileID: 621504980}
 --- !u!1 &660620373
 GameObject:
   m_ObjectHideFlags: 0
